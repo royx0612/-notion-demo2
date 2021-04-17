@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  font-family: "標楷體";
+  
+}
+
+body{
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 1024px;
+}
+.time{
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration:underline;
+}
+.header{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+marquee{
+  font-size: 1.5rem;
+  color: white;
+  background-color:royalblue;
+}
+table{
+  margin : 0 auto;
+  border-collapse: collapse;
+}
+table>thead td{
+  font-weight: bold;
+}
+table td{
+  border: 1px solid #ccc;
+}
+.item-name{
+  padding:5px 40px;
+}
+.item-price{
+  padding: 5px 30px;
+}
+.item-quantity{
+  padding: 5px 10px;
+}
+.item-quantity input{
+  width: 50px;;
+  text-align: center;
+}
+.item-total-price{
+  padding: 5px 40px;
+}
+.origin-price{
+  text-decoration:line-through;
+}
+.discount-price{
+
+  color: red;
+}
+.discount{
+  font-size: 0.7rem;
+  columns: #ccc;
+}
+.mysubmit{
+  margin:10px 0px;
+  font-size: 18px;
+  width: 90%;
+}
+.back-to-page{
+  align-self: flex-start;
+}
+.total-price{
+  color: blue;
+}
